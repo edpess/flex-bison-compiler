@@ -6,11 +6,10 @@
 
 
 *Dependencies:*
-Need to install graphviz, flex, bison and support to shell script (or enter the commands contained in the build.sh file)
-
+Need to install graphviz, flex, bison and support to shell script 
 
 *Procedure:*
-Enter the command sh build.sh
+Enter the command sh build.sh (or enter the commands contained in the build.sh file)
 
 
 The program will give instructions
