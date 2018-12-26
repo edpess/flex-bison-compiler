@@ -16,3 +16,4 @@ The program will give instructions
 
 At the end it will show the state machine and the .DOT code.
 
+Obs. Program originally written for linux
