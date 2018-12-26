@@ -1,15 +1,15 @@
 # flex-bison-compiler
 
 
-This program is a matrix product generator compiler
+**This program is a matrix product generator compiler**
 
 
 
-Dependencies:
-Need to install graphviz, flex, bison and support to shell script
+*Dependencies:*
+Need to install graphviz, flex, bison and support to shell script (or enter the commands contained in the build.sh file)
 
 
-Procedure:
+*Procedure:*
 Enter the command sh build.sh
 
 
