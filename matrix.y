@@ -120,6 +120,6 @@ void multMatrix(int matriz1[2][2],int matriz2[2][2]){
 		f++;
      }
 
-         printf("\n\n\t Use sh clean.sh to clean\n");
+         
          printf("\n\t To exit press ctrl+c\n\n");
 }
