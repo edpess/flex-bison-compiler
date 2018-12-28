@@ -37,9 +37,12 @@
 %type <integer> F
 %type <integer> G
 %type <integer> H
+%start Statement
 
 %%
-Statement: EXPRESSION;
+
+Statement: 
+| Statement EXPRESSION;
 EXPRESSION: MULT PAA MATRIX TDOTS MATRIZ  PAF FINALIZE;
 
 FINALIZE : FINAL{
@@ -121,5 +124,5 @@ void multMatrix(int matriz1[2][2],int matriz2[2][2]){
      }
 
          
-         printf("\n\t To exit press ctrl+c\n\n");
+         
 }
